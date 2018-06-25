@@ -1,0 +1,353 @@
+/*
+Theme Name: recipe
+Author: Zahira Saadi
+Template: twentysixteen
+*/
+
+body
+{
+	 overflow-x: hidden;
+	 background-color:transparent !important; 
+	 top:0;
+}
+
+header ul li,.menu ul li
+{
+  display: inline-block;
+}
+
+header
+{
+	
+	 
+	height: 770px;
+
+
+}
+
+header nav
+{
+	float: right;
+}
+
+header nav ul li
+{
+  margin-top:30px; 	
+}
+
+
+header nav ul li a
+{
+	padding-right: 30px;
+	color: white;
+	font-weight: bold;
+	font-family: Myriad Pro;
+	font-size:14px;
+	transition: all 0.5s ease-in;
+	
+}
+header nav ul li a:hover
+{
+	text-decoration: none;
+	color:pink;
+}
+header .content
+{
+    margin-top: 200px;
+}
+
+
+/************/
+
+
+.content ul li,.content ul li a
+{
+	color:white;
+}
+
+
+.content ul li h4
+{
+	font-family: Times New Roman;
+	font-weight: bold;
+	font-style:italic;
+	font-size:32px;
+	letter-spacing: 3px;
+	opacity: 0.7;
+
+}
+
+.content ul li h1
+{
+	font-family: Myriad Pro;
+	font-size:100px;
+	letter-spacing: 3px;
+	margin-top:3px;
+}
+
+.content ul li .btn
+{
+	border: 3px white solid;
+	padding: 15px 50px;
+	border-radius: 0px;
+	margin-bottom: 30px;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+
+.content ul li .btn:hover
+{
+	color:white;
+}
+
+
+.content ul li p,.content ul li p a
+{
+	font-family: Myriad Pro;
+	letter-spacing: 2px;
+	font-size:11px;
+	font-weight: bold;
+}
+
+.content ul li p a
+{
+	text-decoration: underline;
+}
+/**************************/
+.features
+{
+	background-color: #FFF;
+}
+.features .row
+{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.feat img
+{
+	border: 2px black solid;
+	border-radius: 50%;
+	padding: 15px 15px;
+	margin-bottom: 10px;
+}
+
+
+.features h4,.cuisine h3
+{
+  font-family: Myriad Pro;
+   font-size: 18px;
+   font-weight: bold;
+   color:black;
+}
+
+.features p
+{
+    color:#a7a7a7;;
+	font-size: 16px;
+	font-family: Myriad Pro;
+}
+
+.features hr
+{
+	
+	display: block;
+    height: 1px;
+  
+    border-top: 1px solid #b46868;
+    margin-left:145px;
+    padding: 0; 
+    width: 70px;
+    margin-top: 3px;
+}
+.features .pic2
+{
+   padding-right: 15px;
+   padding-left	:15px;
+   padding-bottom: 30px;
+   padding-top: 30px;
+}
+/********************/
+
+.intro
+{
+	background-color: #f7f7f7;
+
+}
+.intro .menu
+{
+	padding-top: 50px;
+	 overflow: hidden;
+}
+.intro h4
+{
+	font-family: Myriad Pro;
+	font-size: 18px;
+	color:black;
+}
+.intro hr
+{
+	display: block;
+    height: 1px;
+  
+    border-top: 1px solid #b46868;
+    margin-left:5px;
+    padding: 0; 
+    width: 70px;
+    margin-top: 3px;
+}
+.intro p
+{
+	font-family: Myriad Pro;
+	font-size: 16px;
+	color:#a7a7a7;
+
+}
+
+#parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.iphone {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 533px;
+}
+.mini {
+  position: absolute;
+  top: 207px;
+  left: 69px;
+  width: 426px;
+
+}
+
+.menu ul li
+{
+	margin-top: 10px;
+
+}
+.menu ul li img
+{
+	width:100px;
+}
+/*************/
+
+.clients
+{
+	
+	background-color: #4a3949;
+	color:white;
+	/*padding-top: 20px;*/
+	
+}
+.clients .carousel-inner .item
+{
+	padding-top: 0px;
+
+}
+.clients .carousel-inner img
+{
+	margin-top:0px;
+	
+}
+
+.clients h3,.clients p
+{
+	margin-top: 20px;
+	font-family: Myriad Pro;
+	margin-bottom: 20px;
+}
+
+/*************/
+.cuisine
+{
+	background-color: #FFF;
+}
+.cuisine .par,.cuisine .parr
+{
+	/*width:100%;
+	margin-left: -15px;*/
+    display: flex;
+}
+.cuisine .par > div,.cuisine .parr > div {
+  flex: 1; /*grow*/
+
+}
+.cuisine .row
+{
+	background-color: #FFF;
+}
+.cuisine h3
+{
+	margin-top: 50px;
+}
+.cuisine .feat
+{
+	padding: 50px 30px;
+	color:white;
+	text-align: center;
+	width: 225px;height: 180px;
+}
+/**pictures**/
+
+/**end_pictures**/
+
+.cuisine .feat p
+{
+	font-family: Times New Roman;
+	font-style: italic;
+	font-size:15px;
+}
+
+.cuisine .feat h2
+{
+	font-family: Myriad Pro;
+}
+.cuisine hr
+{
+	display: block;
+    height: 1px;
+  
+    border-top: 1px solid #b46868;
+    
+    padding: 0; 
+    width: 70px;
+    margin-top: 3px;
+}
+/**************/
+footer
+{
+	background-color: #f7f7f7;
+	padding-top: 60px;
+	height: 70px;
+	color:#a7a7a7;
+	margin-top: 50px;
+	padding-bottom: 80px;
+}
+.row .numbers
+{
+
+	padding-top: 50px;
+	margin-left: 60px;
+
+}
+
+.row .numbers h2
+{
+	text-align: center;
+	color:black;
+	font-weight: bold;
+}
+
+.row .numbers p
+{
+	color:#a7a7a7;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 14px;
+}
+html,body {
+    margin:0;
+    
+}
